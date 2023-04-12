@@ -16,10 +16,8 @@ export function HouseSelector() {
       onChange={onChange}
     >
       <option value={HouseTypes.All}>{HouseTypes.All}</option>
-      <option value={HouseTypes.Apartment}>
-        {HouseTypes.Apartment}
-        <option value={HouseTypes.Houses}>{HouseTypes.Houses}</option>
-      </option>
+      <option value={HouseTypes.Apartment}>{HouseTypes.Apartment}</option>
+      <option value={HouseTypes.Houses}>{HouseTypes.Houses}</option>
     </NativeSelect>
   );
 }
